@@ -1,0 +1,76 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Metrischer Einheiten Umrechner</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <div class="parent">
+  <h1 id="Titel" class="div1">Umrechner</h1>
+  <div class="navbar" class="div5">
+    <p class="navbarchild"><a href="index.html">Kraft</a></p>
+    <p class="navbarchild">Länge</p>
+    <p class="navbarchild"><a href="Temperatur.html">Temperatur</a></p>
+    <p class="navbarchild"><a href="Dehnung.html">Dehnung</a></p>
+    <p class="navbarchild"><a href="Drehmoment.html">Drehmoment</a></p>
+    <p class="navbarchild"><a href="Beschleunigung.html">Beschleunigung</a></p>
+    <p class="navbarchild"><a href="Masse.html">Masse</a></p>
+  </div>
+  <div class="inputbody">
+  <div class="Input">
+  <lable>Millimeter</lable>
+  <input id="mmIn" type="number" placeholder="" />
+  <br>
+  <lable>Meter</lable>
+  <input id="mIn" type="number" placeholder="" />
+  <br>
+  <lable>Kilometer</lable>
+  <input id="kmIn" type="number" placeholder="" />
+  <br>
+  </div>
+  <div class="Output">
+    <lable>inch (in.)</lable>
+    <input id="inOut" value=""></input>
+    <br>
+    <lable>feet (ft.)</lable>
+    <input id="ftOut" placeholder="" value=""/>
+    <br>
+    <lable>yard</lable>
+    <input id="yardOut" placeholder="" value=""/>
+    <br>
+    <lable>mile (statute)</lable>
+    <input id="mileS" placeholder="" value=""/>
+    <br>
+    <lable>mile (nautic)</lable>
+    <input id="mileN" placeholder="" value=""/>
+  </div>
+</div>
+    <button id="btnActionL" >Umrechnen</button>
+</div>
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/Länge.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
